@@ -53,6 +53,7 @@ import com.android.systemui.dreams.dagger.DreamModule;
 import com.android.systemui.dump.DumpManager;
 import com.android.systemui.flags.FeatureFlags;
 import com.android.systemui.flags.FlagsModule;
+import com.android.systemui.genesis.GenesisModule;
 import com.android.systemui.keyboard.KeyboardModule;
 import com.android.systemui.keyguard.ui.view.layout.blueprints.KeyguardBlueprintModule;
 import com.android.systemui.log.dagger.LogModule;
@@ -178,6 +179,7 @@ import javax.inject.Named;
             SystemPropertiesFlagsModule.class,
             FooterActionsModule.class,
             GarbageMonitorModule.class,
+            GenesisModule.class,
             KeyboardModule.class,
             LetterboxModule.class,
             KeyguardBlueprintModule.class,
